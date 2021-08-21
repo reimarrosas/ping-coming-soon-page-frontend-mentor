@@ -104,3 +104,9 @@ input {
 .img--container {
   margin-block: 5rem 8rem;
 }
+
+.social-link__list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
