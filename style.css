@@ -42,7 +42,7 @@ img:not(.ping-logo) {
   padding: 1em 3em;
   background-color: #f5f5f5;
   border-radius: 500px;
-  box-shadow: 2px 2px 0.3em #2b2b2b;
+  box-shadow: 2px 2px 0.5em rgba(79, 125, 243, 0.4);
 }
 
 .btn--primary {
