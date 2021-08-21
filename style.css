@@ -100,3 +100,7 @@ input {
 .notify {
   flex: 1 1 38%;
 }
+
+.img--container {
+  margin-block: 5rem 8rem;
+}
