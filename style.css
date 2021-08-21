@@ -7,12 +7,16 @@
 }
 
 :root {
-  font-size: 20px;
+  font-size: clamp(12px, 16px, 20px);
   --clr-blue: hsl(223, 87%, 63%);
   --clr-paleblue: hsl(223, 100%, 88%);
   --clr-lightred: hsl(354, 100%, 66%);
   --clr-gray: hsl(0, 0%, 59%);
   --clr-vrydrkblue: hsl(209, 33%, 12%);
+}
+
+body {
+  text-align: center;
 }
 
 a,
@@ -32,4 +36,27 @@ li {
 img:not(.ping-logo) {
   width: 100%;
   height: auto;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.ping-logo {
+  margin-block: 4rem 2.5rem;
+}
+
+.main-message {
+  color: var(--clr-gray);
+  margin-block: 0 1rem;
+}
+
+.main-message--emp {
+  font-weight: 600;
+  color: var(--clr-vrydrkblue);
+}
+
+.message-subtext {
+  margin-block: 0 2.5rem;
 }
