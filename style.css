@@ -88,9 +88,13 @@ input {
 
 #notif-email {
   flex: 1 1 59%;
-  padding: 1em;
+  padding: 1em 2.5em;
   border-radius: 50px;
   border: 1px solid var(--clr-paleblue);
+}
+
+#notif-email::placeholder {
+  color: var(--clr-gray);
 }
 
 .notify {
