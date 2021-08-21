@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+}
+
+:root {
+  font-size: 20px;
+  --clr-blue: hsl(223, 87%, 63%);
+  --clr-paleblue: hsl(223, 100%, 88%);
+  --clr-lightred: hsl(354, 100%, 66%);
+  --clr-gray: hsl(0, 0%, 59%);
+  --clr-vrydrkblue: hsl(209, 33%, 12%);
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+img:not(.ping-logo) {
+  width: 100%;
+  height: auto;
+}
